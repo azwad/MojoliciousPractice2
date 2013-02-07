@@ -1,0 +1,17 @@
+% layout 'default';
+<form method="get" action="<%= url_for('search_result') %>">
+	<div>
+		Search person infomations.
+	</div>
+	<div>
+		Height
+		<input type="text" name="height_min">
+		<input type="text" name="height_max">
+	</div>
+	<div>
+		<input type='submit' value="Search">
+	</div>
+</form>
+<div>
+	<a href ="<%= url_for('register') %>">Go to register page.</a>
+</div>

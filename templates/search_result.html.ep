@@ -1,0 +1,25 @@
+% layout 'default';
+<div>
+	<a href="<%= url_for('search') %>">Go to Searching page</a>
+	<a href="<%= url_for('register') %>">Go to Registing page</a>
+</div>
+<div>
+% foreach my $person (@$result){
+	<div>
+	<hr>
+		<div>Name  : <%= $person->{name} %></div>
+		<div>Height: <%= $person->{height} %></div>
+	<div>
+% }
+</div>
+
+
+
+
+
+
+
+
+
+
+

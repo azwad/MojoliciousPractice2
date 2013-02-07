@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta hettp-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title><%= $site_title %></title>
+</head>
+	<body style="width:500px; margin:0;">
+	<h2><a href="./search"><%= $site_title %></a><h2>
+	<h3><%= $page_title %></h3>
+		<%=content %>
+	<p>
+	<a href=./search>BACK</a>
+	</body>
+</html>
+

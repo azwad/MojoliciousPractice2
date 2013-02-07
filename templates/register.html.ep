@@ -1,0 +1,22 @@
+% layout 'default';
+<form method="post" action="<%= url_for('post') %>">
+	<div>
+		Register person infomations.
+	</div>
+	<div>
+		Name
+		<input type="text" name="name">
+	</div>
+	<div>
+		Height
+		<input type="text" name="height">
+	</div>
+	<div>
+		<input type='submit' value="Regisit">
+	</div>
+	<div>
+</form>
+<div>
+	<a href ="<%= url_for('search') %>">Go to search page.</a>
+</div>
+
